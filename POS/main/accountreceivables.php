@@ -37,12 +37,12 @@ Accounts Receivables Report from&nbsp;<?php echo $_GET['d1'] ?>&nbsp;to&nbsp;<?p
 <table id="resultTable" data-responsive="table" style="text-align: left;">
 	<thead>
 		<tr>
-			<th width="17%"> Transaction ID </th>
+			<th width="17%"> Numero de transaction </th>
 			<th width="8%"> Date </th>
-			<th width="25%"> Customer Name </th>
-			<th width="25%"> Invoice Number </th>
+			<th width="25%"> Nom du client </th>
+			<th width="25%"> Numero de la facture </th>
 			<th width="15%"> Ballance </th>
-			<th width="10%"> Due Date </th>
+			<th width="10%"> Date d'echeance </th>
 		</tr>
 	</thead>
 	<tbody>
