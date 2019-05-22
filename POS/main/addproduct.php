@@ -1,11 +1,11 @@
 <link href="../style.css" media="screen" rel="stylesheet" type="text/css" />
 <form action="saveproduct.php" method="post">
 <div id="ac">
-<span>Product Code : </span><input type="text" name="code" /><br>
-<span>Product Name : </span><input type="text" name="name" /><br>
-<span>Cost : </span><input type="text" name="cost" /><br>
-<span>Price : </span><input type="text" name="price" /><br>
-<span>Supplier : </span>
+<span>Code produit : </span><input type="text" name="code" /><br>
+<span>Nom produit : </span><input type="text" name="name" /><br>
+<span>Coût : </span><input type="text" name="cost" /><br>
+<span>Prix : </span><input type="text" name="price" /><br>
+<span>Fournisseur : </span>
 <select name="supplier">
 	<?php
 	include('../connect.php');
