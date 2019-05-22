@@ -25,8 +25,8 @@ $finalcode='IN-'.createRandomPassword();
 <input type="hidden" name="invoice" value="<?php echo $finalcode; ?>" />
 <input type="hidden" name="tot" value="<?php echo $_GET['amount']; ?>" />
 <div id="ac">
-<span>Amount : </span><input type="text" name="amount" /><br>
-<span>Remarks : </span><input type="text" name="remarks" /><br>
+<span>Montant : </span><input type="text" name="amount" /><br>
+<span>Remarques : </span><input type="text" name="remarks" /><br>
 <span>&nbsp;</span><input id="btn" type="submit" value="save" />
 </div>
 </form>
